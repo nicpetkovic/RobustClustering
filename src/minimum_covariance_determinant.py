@@ -1,5 +1,5 @@
 from sklearn.covariance import MinCovDet
-from src.change_detection.cluster import Cluster
+from src.cluster import Cluster
 import numpy as np
 
 

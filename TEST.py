@@ -1,8 +1,6 @@
 import numpy as np
 from sklearn.datasets import make_blobs
-from src.change_detection.similarity_based_clustering import largest_cluster, mountain_method, largest_clusters
-from src.change_detection.minimum_covariance_determinant import mcv_robust_clustering
-from src.change_detection.cluster_estimation import cluster_estimation
+from src.cluster_estimation import cluster_estimation
 
 
 def test_cluster_estimation():
