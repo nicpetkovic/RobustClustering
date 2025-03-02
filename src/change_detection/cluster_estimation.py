@@ -1,5 +1,5 @@
-from src.online_learning.change_detection.similarity_based_clustering import largest_cluster, mountain_method, largest_clusters
-from src.online_learning.change_detection.minimum_covariance_determinant import mcv_robust_clustering
+from src.change_detection.similarity_based_clustering import largest_cluster, mountain_method, largest_clusters
+from src.change_detection.minimum_covariance_determinant import mcv_robust_clustering
 from sklearn.decomposition import PCA
 from scipy import stats
 import numpy as np
