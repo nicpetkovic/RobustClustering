@@ -1,7 +1,7 @@
 from scipy.spatial import distance
 import numpy as np
 import math
-from src.utils import omega_rmm
+from similarity_based_clustering.utils import omega_rmm
 
 
 def mountain_method(outliers, epsilon, radius, p):
