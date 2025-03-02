@@ -41,7 +41,7 @@ def largest_cluster(centers, epsilon, outliers):
 
     clusters = []
     for index_set in sets:
-        clusters.append([outliers[idx] for idx in index_set])
+        clusters.append([outliers[idx-1] for idx in index_set])
 
     largest_cluster = max(clusters, key=len)
 
